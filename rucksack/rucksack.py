@@ -1,7 +1,7 @@
 with open("input.txt") as inp:
-    priority = 0
-    member_count = 0
-    common_item = set() 
+    priority : int = 0
+    member_count : int = 0
+    common_item : set[str] = set() 
     for rucksack in inp:
         member_count += 1
         if common_item:
